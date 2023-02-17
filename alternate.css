@@ -1,0 +1,153 @@
+/* set the background color to wine red */
+body {
+    background-color: #6F263D;
+  }
+  
+  /* set the primary text color to white */
+  body {
+    color: gold;
+    text-align: justify right;
+  }
+
+  /* set the paragraph border */
+  section {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+  }
+
+  /* center align an ordered list */
+  ul {
+    margin: 0 auto;
+    width: 50%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    font-size: larger;
+  }
+
+  /* image align center with size value */
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    padding: 5px;
+  }
+
+  
+  /* set the border color to gold */
+  .border {
+    border-color: #FFB81C;
+  }
+  
+  /* set the button color to gold and font color to wine red */
+  .button {
+    background-color: #FFB81C;
+    color: #6F263D;
+  }
+  
+  /* set the hyperlink color to gold and underline it */
+  a {
+    color: #FFB81C;
+    text-decoration: underline;
+    padding-top: 400px;
+  }
+
+  /* center align href links */
+  nav {
+    text-align: center;
+    font-size: x-large;
+  }
+
+  #author {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: gold;
+  }
+
+  #beginning {
+    font-family: Arila, sans-serif;
+    font-size: 25px;
+    text-align: center
+  }
+  
+  /* align header text to the center */
+  header {
+    text-align: center;
+    font-style: italic;
+  }
+
+  p {
+    color: gold;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+  }
+
+  #lol {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    animation: rotation 6s infinite linear;
+    position: relative;
+    top: 40px;
+    align-content: center;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* set the heading colors to wine red and gold */
+  h1, h2 {
+    font-family: Arial, sans-serif;
+    color: gold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+  }  
+  
+  /* set the table header and footer colors to wine red and the table row colors to white */
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 80%;
+    font-family: Arial, sans-serif;
+    color: #000;
+  }
+  
+  th {
+    background-color: #6F263D;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  td {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #EFEFEF;
+  }
+  
